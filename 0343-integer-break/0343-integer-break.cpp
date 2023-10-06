@@ -8,11 +8,10 @@ public:
 
         if(rem == 0)
         return pow(3,count_3);
-        if(rem == 1)
+        else if(rem == 1)
         return pow(3,count_3-1)*4;
         else
         return pow(3,count_3)*2;
-
 
     }
 };
