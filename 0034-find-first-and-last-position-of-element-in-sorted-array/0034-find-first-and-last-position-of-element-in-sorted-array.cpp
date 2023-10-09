@@ -2,11 +2,12 @@ class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
         vector<int> ans{-1,-1};
-        //For left;
+        //For left side
         int low= 0 , high = nums.size() -1;
+        int mid = 0;
         while(low <= high)
         {
-            int mid = (low+high)/2;
+            mid = (low+high)/2;
 
             if(nums[mid] == target)
             {
@@ -25,7 +26,7 @@ public:
 
         while(low<=high)
         {
-            int mid = (low+high)/2;
+            mid = (low+high)/2;
             if(nums[mid] == target)
             {
                 ans[1] = mid;
