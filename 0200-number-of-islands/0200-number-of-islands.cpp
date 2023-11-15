@@ -27,20 +27,12 @@ public:
             {
                 if(grid[i][j] == '1' and !visited[i][j])
                 {   
-                    cout <<i << j <<  " " << endl;
                     dfs(i , j , grid , visited);
                     count++;
                 }
             } 
         }
-        for(int i = 0 ; i < grid.size() ; i++)
-        {
-            for(int j = 0 ; j < grid[0].size() ; j++)
-            {
-                cout << visited[i][j] << " ";
-            } 
-            cout << endl;
-        }        
+        
         return count;
 
 
