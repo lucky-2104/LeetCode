@@ -10,7 +10,6 @@ public:
         for(int i = 1 ; i < points.size() ; i++)
         {
             distance = distance + max(abs(points[i][0]-x1) , abs(points[i][1]-y1));
-            
             x1 = points[i][0];
             y1 = points[i][1]; 
         }
