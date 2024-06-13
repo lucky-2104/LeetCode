@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0876-hand-of-straights](https://github.com/lucky-2104/LeetCode/tree/master/0876-hand-of-straights) |
+| [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/lucky-2104/LeetCode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/lucky-2104/LeetCode/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 # Array
 |  |
@@ -26,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0876-hand-of-straights](https://github.com/lucky-2104/LeetCode/tree/master/0876-hand-of-straights) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/lucky-2104/LeetCode/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1137-height-checker](https://github.com/lucky-2104/LeetCode/tree/master/1137-height-checker) |
+| [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/lucky-2104/LeetCode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 # Hash Table
 |  |
 | ------- |
@@ -39,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0075-sort-colors](https://github.com/lucky-2104/LeetCode/tree/master/0075-sort-colors) |
 | [0876-hand-of-straights](https://github.com/lucky-2104/LeetCode/tree/master/0876-hand-of-straights) |
 | [1137-height-checker](https://github.com/lucky-2104/LeetCode/tree/master/1137-height-checker) |
+| [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/lucky-2104/LeetCode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 # Trie
 |  |
 | ------- |
