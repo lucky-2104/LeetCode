@@ -16,14 +16,12 @@ public:
         {
             int cap = vec[i].first;
             int pro = vec[i].second;
-            cout << cap << " " << pro << endl;
             if(cap <= w)
             {
                 pq.push({pro ,cap});
                 i++;
             }
             else if(k > 0 and !pq.empty()){
-                cout << "here " << endl;
                 int curr_cap = pq.top().second;
                 int curr_pro = pq.top().first;
                 pq.pop();
