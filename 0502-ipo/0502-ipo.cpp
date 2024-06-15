@@ -3,8 +3,10 @@ public:
     int findMaximizedCapital(int k, int w, vector<int>& profits, vector<int>& capital) {
 
         //Sort the array pick all the capitals smaller than w and insert them into max_priority_queue
-        // and select the k element from that priority queue; and if selected increase the w by profit[i] and repeat
+        // and select the k element from that priority queue; 
+        //and if selected increase the w by profit[i] and repeat
         //as soon as u increase the value of w
+        //return w
 
         vector<pair<int,int>> vec;
         for(int i = 0 ; i < profits.size() ; i++)   vec.push_back({capital[i] , profits[i]});
