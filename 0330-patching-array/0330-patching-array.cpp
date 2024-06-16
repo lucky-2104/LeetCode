@@ -12,8 +12,7 @@ public:
             }
             else
             {
-                int patch = max_count+1;
-                max_count = max_count + patch;
+                max_count = max_count + max_count+1;
                 patches++;
             }
         }
