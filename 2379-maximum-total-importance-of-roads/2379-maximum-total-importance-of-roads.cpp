@@ -26,11 +26,6 @@ public:
 
         sort(assign.rbegin(),assign.rend());
 
-        for(auto itr : assign)
-        {
-            cout << itr.first << " " << itr.second << endl;
-        }
-
         vector<long> numbering(n,0);
         long long k = n;
         for(int i = 0 ; i < assign.size() ; i++)
