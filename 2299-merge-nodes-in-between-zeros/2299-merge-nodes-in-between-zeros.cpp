@@ -34,7 +34,6 @@ public:
             else
             tail->val = tail->val+walk->val;
             walk = walk->next;
-            delete delete_Node;
         }
         // delete tail;
         return new_head;
