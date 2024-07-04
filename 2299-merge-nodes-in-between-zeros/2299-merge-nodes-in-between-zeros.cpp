@@ -18,7 +18,7 @@ public:
         ListNode* tail = NULL;
         while(walk->next != NULL)
         {
-
+            ListNode* delete_Node = walk;
             if(walk->val == 0){
                 ListNode * new_node = new ListNode(0);
                 if(new_head == NULL and tail == NULL)
@@ -33,8 +33,8 @@ public:
             }
             else
             tail->val = tail->val+walk->val;
-
             walk = walk->next;
+            delete delete_Node;
         }
         // delete tail;
         return new_head;
