@@ -135,6 +135,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/lucky-2104/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1293-three-consecutive-odds](https://github.com/lucky-2104/LeetCode/tree/master/1293-three-consecutive-odds) |
+| [1720-crawler-log-folder](https://github.com/lucky-2104/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1803-average-waiting-time](https://github.com/lucky-2104/LeetCode/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/lucky-2104/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Hash Table
@@ -176,4 +177,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/lucky-2104/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
+## String
+|  |
+| ------- |
+| [1720-crawler-log-folder](https://github.com/lucky-2104/LeetCode/tree/master/1720-crawler-log-folder) |
+## Stack
+|  |
+| ------- |
+| [1720-crawler-log-folder](https://github.com/lucky-2104/LeetCode/tree/master/1720-crawler-log-folder) |
 <!---LeetCode Topics End-->
