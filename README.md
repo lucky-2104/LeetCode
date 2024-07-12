@@ -98,6 +98,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [1818-maximum-score-from-removing-substrings](https://github.com/lucky-2104/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2379-maximum-total-importance-of-roads](https://github.com/lucky-2104/LeetCode/tree/master/2379-maximum-total-importance-of-roads) |
 ## Graph
 |  |
@@ -181,8 +182,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1720-crawler-log-folder](https://github.com/lucky-2104/LeetCode/tree/master/1720-crawler-log-folder) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/lucky-2104/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 ## Stack
 |  |
 | ------- |
 | [1720-crawler-log-folder](https://github.com/lucky-2104/LeetCode/tree/master/1720-crawler-log-folder) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/lucky-2104/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 <!---LeetCode Topics End-->
