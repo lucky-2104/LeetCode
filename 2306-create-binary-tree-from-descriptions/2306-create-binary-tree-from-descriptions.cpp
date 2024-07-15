@@ -33,12 +33,8 @@ public:
 
         for(int i = 0 ; i < descriptions.size() ;i++)
         {
-            int parent = descriptions[i][0];
-            int child = descriptions[i][1];
-            int choose = descriptions[i][2];
-
-            if(choose == 1) addresses[parent]->left = addresses[child];
-            else addresses[parent]->right = addresses[child];
+            if(descriptions[i][2] == 1) addresses[descriptions[i][0]]->left = addresses[descriptions[i][1]];
+            else addresses[descriptions[i][0]]->right = addresses[descriptions[i][1]];
         }
 
         TreeNode* root = addresses[root_value];
