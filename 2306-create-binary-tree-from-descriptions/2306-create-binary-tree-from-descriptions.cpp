@@ -13,7 +13,7 @@ class Solution {
 public:
     TreeNode* createBinaryTree(vector<vector<int>>& descriptions) {
 
-        map<int,int>indegree;
+        unordered_map<int,int>indegree;
 
         for(int i = 0 ; i < descriptions.size() ; i++)
         {
@@ -22,7 +22,7 @@ public:
         }
 
         
-        map<int , TreeNode*> addresses;
+        unordered_map<int , TreeNode*> addresses;
         int root_value = -1;
         for(auto x : indegree)
         {
