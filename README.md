@@ -98,6 +98,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [1700-minimum-time-to-make-rope-colorful](https://github.com/lucky-2104/LeetCode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/lucky-2104/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2379-maximum-total-importance-of-roads](https://github.com/lucky-2104/LeetCode/tree/master/2379-maximum-total-importance-of-roads) |
 ## Graph
@@ -139,6 +140,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/lucky-2104/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0747-min-cost-climbing-stairs](https://github.com/lucky-2104/LeetCode/tree/master/0747-min-cost-climbing-stairs) |
 | [1293-three-consecutive-odds](https://github.com/lucky-2104/LeetCode/tree/master/1293-three-consecutive-odds) |
+| [1700-minimum-time-to-make-rope-colorful](https://github.com/lucky-2104/LeetCode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1720-crawler-log-folder](https://github.com/lucky-2104/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1803-average-waiting-time](https://github.com/lucky-2104/LeetCode/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/lucky-2104/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -192,6 +194,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0726-number-of-atoms](https://github.com/lucky-2104/LeetCode/tree/master/0726-number-of-atoms) |
+| [1700-minimum-time-to-make-rope-colorful](https://github.com/lucky-2104/LeetCode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1720-crawler-log-folder](https://github.com/lucky-2104/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/lucky-2104/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 ## Stack
@@ -215,6 +218,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0070-climbing-stairs](https://github.com/lucky-2104/LeetCode/tree/master/0070-climbing-stairs) |
 | [0747-min-cost-climbing-stairs](https://github.com/lucky-2104/LeetCode/tree/master/0747-min-cost-climbing-stairs) |
 | [1236-n-th-tribonacci-number](https://github.com/lucky-2104/LeetCode/tree/master/1236-n-th-tribonacci-number) |
+| [1700-minimum-time-to-make-rope-colorful](https://github.com/lucky-2104/LeetCode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 ## Memoization
 |  |
 | ------- |
