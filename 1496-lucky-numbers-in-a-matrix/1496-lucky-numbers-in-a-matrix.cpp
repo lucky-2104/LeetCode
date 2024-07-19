@@ -21,18 +21,13 @@ public:
         }
 
         vector<int> ans;
-        int row = 0;
-        for(int i = 0 ; i < m ;i++)
-        {
-            int col = 0;
+        for(int i = 0 ; i < m ;i++){
+
             for(int j = 0 ; j < n ; j++)
             {
-                if(matrix[i][j] == min_row[row] and matrix[i][j] == max_col[col])
+                if(matrix[i][j] == min_row[i] and matrix[i][j] == max_col[j])
                 ans.push_back(matrix[i][j]);
-                col++;
             }
-            col = 0;
-            row++;
         }
         return ans;
         
