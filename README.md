@@ -143,6 +143,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0747-min-cost-climbing-stairs](https://github.com/lucky-2104/LeetCode/tree/master/0747-min-cost-climbing-stairs) |
 | [1207-delete-nodes-and-return-forest](https://github.com/lucky-2104/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1293-three-consecutive-odds](https://github.com/lucky-2104/LeetCode/tree/master/1293-three-consecutive-odds) |
+| [1496-lucky-numbers-in-a-matrix](https://github.com/lucky-2104/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/lucky-2104/LeetCode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1720-crawler-log-folder](https://github.com/lucky-2104/LeetCode/tree/master/1720-crawler-log-folder) |
 | [1803-average-waiting-time](https://github.com/lucky-2104/LeetCode/tree/master/1803-average-waiting-time) |
@@ -232,4 +233,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0070-climbing-stairs](https://github.com/lucky-2104/LeetCode/tree/master/0070-climbing-stairs) |
 | [1236-n-th-tribonacci-number](https://github.com/lucky-2104/LeetCode/tree/master/1236-n-th-tribonacci-number) |
+## Matrix
+|  |
+| ------- |
+| [1496-lucky-numbers-in-a-matrix](https://github.com/lucky-2104/LeetCode/tree/master/1496-lucky-numbers-in-a-matrix) |
 <!---LeetCode Topics End-->
