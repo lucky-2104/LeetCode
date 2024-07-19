@@ -9,13 +9,6 @@ public:
 
         queue<pair<int,int>>q;
 
-
-        for(auto x : grid)
-        {
-            for(auto y : x)
-            cout << y << " ";
-            cout << endl;
-        }
         if(grid[0][0] == 1) return -1;
 
         distance[0][0] = 1;
@@ -28,61 +21,57 @@ public:
             int x = q.front().first;
             int y = q.front().second;
 
-            cout <<x<< " " << y << " "<< distance[x][y] << endl;
-
             if(x+1 < n and grid[x+1][y] == 0 and distance[x][y]+1 < distance[x+1][y])
             {
                 distance[x+1][y] = distance[x][y]+1; 
                 q.push({x+1,y});
-                cout << x+1 << y << endl;
+
             }
             if(x-1 >= 0 and  grid[x-1][y] == 0 and distance[x][y]+1 < distance[x-1][y])
             {
                 distance[x-1][y] = distance[x][y]+1; 
                 q.push({x-1,y});
-                cout << x-1 << y << endl;
+
             }
             if(y+1 < m and  grid[x][y+1] == 0 and distance[x][y]+1 < distance[x][y+1])
             {
                 distance[x][y+1] = distance[x][y]+1; 
                 q.push({x,y+1});
-                cout << x << y+1 << endl;
+
             }
             if(y-1 >= 0 and  grid[x][y-1] == 0 and distance[x][y]+1 < distance[x][y-1])
             {
                 distance[x][y-1] = distance[x][y]+1; 
                 q.push({x,y-1});
-                cout << x << y-1 << endl;
+
             }
 
-            //For multi-directional
-            //x+1 y+1
+          
             if(x+1 < n and y+1 < m and  grid[x+1][y+1] == 0 and  distance[x][y] +1 < distance[x+1][y+1])
             {
                 distance[x+1][y+1] = distance[x][y] +1;
                 q.push({x+1,y+1});
-                cout << x+1 << y+1 << endl;
+
             }
-            //x+1 y-1
+
             if(x+1 < n and y-1 >= 0 and  grid[x+1][y-1] == 0 and distance[x][y] +1 < distance[x+1][y-1])
             {
                 distance[x+1][y-1] = distance[x][y] +1;
                 q.push({x+1,y-1});
-                cout << x+1 << y-1<< endl;
+
             }
-            //x-1 y -1
+
             if(x-1 >= 0 and y-1 >=0 and  grid[x-1][y-1] == 0  and distance[x][y] +1 < distance[x-1][y-1])
             {
                 distance[x-1][y-1] = distance[x][y] +1;
                 q.push({x-1,y-1});
-                cout << x-1<<y-1 << endl;
+
             }
-            //x-1 y+1
+
             if(x-1 >= 0 and y+1 < m and  grid[x-1][y+1] == 0 and distance[x][y] +1 < distance[x-1][y+1])
             {
                 distance[x-1][y+1] = distance[x][y] +1;
                 q.push({x-1,y+1});
-                cout << x-1 << y+1 << endl;
             }
             q.pop();
 
