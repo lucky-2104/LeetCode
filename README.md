@@ -106,6 +106,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0803-cheapest-flights-within-k-stops](https://github.com/lucky-2104/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/lucky-2104/LeetCode/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/lucky-2104/LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/lucky-2104/LeetCode/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 | [2379-maximum-total-importance-of-roads](https://github.com/lucky-2104/LeetCode/tree/master/2379-maximum-total-importance-of-roads) |
 | [2472-build-a-matrix-with-conditions](https://github.com/lucky-2104/LeetCode/tree/master/2472-build-a-matrix-with-conditions) |
@@ -256,6 +257,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0747-min-cost-climbing-stairs](https://github.com/lucky-2104/LeetCode/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/lucky-2104/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1236-n-th-tribonacci-number](https://github.com/lucky-2104/LeetCode/tree/master/1236-n-th-tribonacci-number) |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/lucky-2104/LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/lucky-2104/LeetCode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 ## Memoization
 |  |
@@ -273,6 +275,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0803-cheapest-flights-within-k-stops](https://github.com/lucky-2104/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/lucky-2104/LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 ## Divide and Conquer
 |  |
 | ------- |
