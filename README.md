@@ -146,6 +146,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 |  |
 | ------- |
+| [0127-word-ladder](https://github.com/lucky-2104/LeetCode/tree/master/0127-word-ladder) |
 | [0210-course-schedule-ii](https://github.com/lucky-2104/LeetCode/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/lucky-2104/LeetCode/tree/master/0547-number-of-provinces) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/lucky-2104/LeetCode/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -196,6 +197,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0127-word-ladder](https://github.com/lucky-2104/LeetCode/tree/master/0127-word-ladder) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/lucky-2104/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0726-number-of-atoms](https://github.com/lucky-2104/LeetCode/tree/master/0726-number-of-atoms) |
 | [1207-delete-nodes-and-return-forest](https://github.com/lucky-2104/LeetCode/tree/master/1207-delete-nodes-and-return-forest) |
@@ -246,6 +248,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0006-zigzag-conversion](https://github.com/lucky-2104/LeetCode/tree/master/0006-zigzag-conversion) |
+| [0127-word-ladder](https://github.com/lucky-2104/LeetCode/tree/master/0127-word-ladder) |
 | [0726-number-of-atoms](https://github.com/lucky-2104/LeetCode/tree/master/0726-number-of-atoms) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/lucky-2104/LeetCode/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1720-crawler-log-folder](https://github.com/lucky-2104/LeetCode/tree/master/1720-crawler-log-folder) |
