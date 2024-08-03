@@ -1,55 +1,66 @@
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
-
-        priority_queue<pair<int,pair<int,int>> , vector<pair<int,pair<int,int>>> ,greater<pair<int,pair<int,int>>>> pq;
-        int m = grid.size() , n = grid[0].size();
-        for(int i = 0 ; i < m ;i++)
+        
+        queue<pair<int,int>> rotten_tomatoes;
+        
+        for(int i = 0 ; i < grid.size(); i++)
         {
-            for(int j = 0 ; j < n ;j++)
-            if(grid[i][j] == 2) pq.push({0,{i,j}});
+            for(int j = 0 ; j < grid[0].size();j++)
+            {
+                if(grid[i][j] == 2)
+                rotten_tomatoes.push({i,j});
+            }
         }
-        int time = 0;
-
-        while(!pq.empty())
+        
+        rotten_tomatoes.push({-1,-1});
+        int count = 0;
+        
+        while(rotten_tomatoes.size() > 1)
         {
-            int curr_time = pq.top().first;
-            int row = pq.top().second.first;
-            int col = pq.top().second.second;
-            pq.pop();
-
-            if(row+1 < m and grid[row+1][col] == 1)
+            auto x = rotten_tomatoes.front();
+            int i = x.first;
+            int j = x.second;
+            rotten_tomatoes.pop();
+            
+            if(i == -1 and j == -1)
             {
-                pq.push({curr_time+1,{row+1,col}});
-                grid[row+1][col] = 2;
+                count++;
+                rotten_tomatoes.push({-1,-1});
             }
-            if(row - 1 >= 0 and grid[row-1][col] == 1)
+            
+            if(i > 0 and grid[i-1][j] == 1)
             {
-                pq.push({curr_time+1 ,{row-1,col}});
-                grid[row-1][col] = 2;
-            }
-            if(col+1 < n and grid[row][col+1] == 1)
+                grid[i-1][j] = 2;
+                rotten_tomatoes.push({i-1,j});
+            }   
+            if(i < grid.size()-1 and grid[i+1][j] == 1)
             {
-                pq.push({curr_time+1,{row,col+1}});
-                grid[row][col+1] = 2;
+                grid[i+1][j] = 2;
+                rotten_tomatoes.push({i+1,j});
             }
-            if(col - 1 >= 0 and grid[row][col-1] == 1)
+            if(j > 0 and grid[i][j-1] == 1)
             {
-                pq.push({curr_time+1 ,{row,col-1}});
-                grid[row][col-1] = 2;
+                grid[i][j-1] = 2;
+                rotten_tomatoes.push({i,j-1});
             }
-            time = curr_time;
+            if(j < grid[0].size()-1 and grid[i][j+1] == 1)
+            {
+                grid[i][j+1] = 2;
+                rotten_tomatoes.push({i,j+1});
+            }            
+            
         }
-
-        for(int i = 0 ; i < m ;i++)
+        
+        for(int i = 0 ; i < grid.size() ; i++)
         {
-            for(int j = 0 ; j < n ;j++)
-            if(grid[i][j] == 1) return -1;
-        }
-
-        return time;
-
-
+            for(int j = 0 ; j < grid[0].size() ;j++)
+            {
+                if(grid[i][j] == 1)
+                    return -1;
+            }
+        }        
+        return count;
         
     }
 };
