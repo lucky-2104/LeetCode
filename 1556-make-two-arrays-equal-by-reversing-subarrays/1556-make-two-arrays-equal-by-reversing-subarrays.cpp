@@ -10,11 +10,7 @@ public:
         ump[x]--;
 
         for(auto itr : ump)
-        {
-            int x = itr.first;
-            int y = itr.second;
-            if(y > 0 or y < 0) return false;
-        }
+            if(itr.second > 0 or itr.second < 0) return false;
         return true;
         
     }
