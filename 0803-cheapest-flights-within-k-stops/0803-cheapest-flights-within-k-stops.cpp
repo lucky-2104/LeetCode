@@ -1,47 +1,50 @@
 class Solution {
 public:
     int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
-        
-        vector<pair<int, int>>adj[n];
-        for(auto it : flights)
+
+        vector<int> dist(n , INT_MAX);
+
+        vector<vector<pair<int,int>>> graph;
+
+        for(int i = 0 ; i < n ; i++) graph.push_back({});
+
+        for(auto itr : flights)
         {
-            adj[it[0]].push_back({it[1] , it[2]});
+            int src = itr[0] , dest = itr[1] , cost = itr[2];
+            graph[src].push_back({dest,cost});
         }
 
-        queue<pair<int, pair<int, int>>>q;  //{stops, {node, cost}}
-        q.push({0, {src, 0}});
+        priority_queue<pair<int,pair<int,int>> , vector<pair<int,pair<int,int>>> , greater<pair<int,pair<int,int>>>> pq;
 
-        vector<int>dist(n, 1e9);
-        dist[src] = 0;
 
-        while(!q.empty())
-        {
-            auto it = q.front();
-            int stops = it.first;
-            int node = it.second.first;
-            int cost = it.second.second;
-            q.pop();
+        pq.push({0,{src,0}});
 
-            if(stops > k){
-                continue;
-            }
+        while(!pq.empty()){
+            int stop = pq.top().first;
+            int node = pq.top().second.first;
+            int cost = pq.top().second.second;
 
-            for(auto x : adj[node])
-            {
-                int adjNode = x.first;
-                int edW = x.second;
+            pq.pop();
 
-                if(cost + edW < dist[adjNode] && stops <= k)
+            if(stop > k)
+            continue;
+
+            for(auto itr : graph[node]){
+                int adjNode = itr.first;
+                int wt = itr.second;
+                if(cost + wt < dist[adjNode] and stop <= k)
                 {
-                    dist[adjNode] = cost + edW;
-                    q.push({stops+1, {adjNode, dist[adjNode]}});
+                    dist[adjNode] = cost+wt;
+                    pq.push({stop+1,{adjNode,cost+wt}});
                 }
             }
-
         }
 
-        if(dist[dst] == 1e9)return -1;   //not reachable within k stops
-        return dist[dst];
-    }
+        if(dist[dst] == INT_MAX)
+        return -1;
 
+        return dist[dst];
+
+        
+    }
 };
