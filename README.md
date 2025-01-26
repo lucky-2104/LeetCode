@@ -114,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/lucky-2104/LeetCode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/lucky-2104/LeetCode/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/lucky-2104/LeetCode/tree/master/2171-second-minimum-time-to-reach-destination) |
+| [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/lucky-2104/LeetCode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 | [2379-maximum-total-importance-of-roads](https://github.com/lucky-2104/LeetCode/tree/master/2379-maximum-total-importance-of-roads) |
 | [2472-build-a-matrix-with-conditions](https://github.com/lucky-2104/LeetCode/tree/master/2472-build-a-matrix-with-conditions) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/lucky-2104/LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -160,6 +161,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1442-number-of-operations-to-make-network-connected](https://github.com/lucky-2104/LeetCode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/lucky-2104/LeetCode/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1753-path-with-minimum-effort](https://github.com/lucky-2104/LeetCode/tree/master/1753-path-with-minimum-effort) |
+| [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/lucky-2104/LeetCode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -183,6 +185,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0210-course-schedule-ii](https://github.com/lucky-2104/LeetCode/tree/master/0210-course-schedule-ii) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/lucky-2104/LeetCode/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/lucky-2104/LeetCode/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 | [2472-build-a-matrix-with-conditions](https://github.com/lucky-2104/LeetCode/tree/master/2472-build-a-matrix-with-conditions) |
 ## Union Find
 |  |
