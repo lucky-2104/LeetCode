@@ -278,6 +278,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2299-merge-nodes-in-between-zeros](https://github.com/lucky-2104/LeetCode/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2645-pass-the-pillow](https://github.com/lucky-2104/LeetCode/tree/master/2645-pass-the-pillow) |
 | [2846-robot-collisions](https://github.com/lucky-2104/LeetCode/tree/master/2846-robot-collisions) |
+| [3447-clear-digits](https://github.com/lucky-2104/LeetCode/tree/master/3447-clear-digits) |
 ## Math
 |  |
 | ------- |
@@ -311,6 +312,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2502-sort-the-people](https://github.com/lucky-2104/LeetCode/tree/master/2502-sort-the-people) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/lucky-2104/LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/lucky-2104/LeetCode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3447-clear-digits](https://github.com/lucky-2104/LeetCode/tree/master/3447-clear-digits) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/lucky-2104/LeetCode/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Stack
 |  |
@@ -323,6 +325,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/lucky-2104/LeetCode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/lucky-2104/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2846-robot-collisions](https://github.com/lucky-2104/LeetCode/tree/master/2846-robot-collisions) |
+| [3447-clear-digits](https://github.com/lucky-2104/LeetCode/tree/master/3447-clear-digits) |
 ## Tree
 |  |
 | ------- |
