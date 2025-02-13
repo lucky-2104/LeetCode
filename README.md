@@ -141,6 +141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0948-sort-an-array](https://github.com/lucky-2104/LeetCode/tree/master/0948-sort-an-array) |
 | [1753-path-with-minimum-effort](https://github.com/lucky-2104/LeetCode/tree/master/1753-path-with-minimum-effort) |
 | [2379-maximum-total-importance-of-roads](https://github.com/lucky-2104/LeetCode/tree/master/2379-maximum-total-importance-of-roads) |
+| [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/lucky-2104/LeetCode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -233,6 +234,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2502-sort-the-people](https://github.com/lucky-2104/LeetCode/tree/master/2502-sort-the-people) |
 | [2846-robot-collisions](https://github.com/lucky-2104/LeetCode/tree/master/2846-robot-collisions) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/lucky-2104/LeetCode/tree/master/3235-minimum-cost-to-convert-string-i) |
+| [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/lucky-2104/LeetCode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 ## Hash Table
 |  |
 | ------- |
@@ -278,6 +280,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2299-merge-nodes-in-between-zeros](https://github.com/lucky-2104/LeetCode/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2645-pass-the-pillow](https://github.com/lucky-2104/LeetCode/tree/master/2645-pass-the-pillow) |
 | [2846-robot-collisions](https://github.com/lucky-2104/LeetCode/tree/master/2846-robot-collisions) |
+| [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/lucky-2104/LeetCode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3447-clear-digits](https://github.com/lucky-2104/LeetCode/tree/master/3447-clear-digits) |
 ## Math
 |  |
