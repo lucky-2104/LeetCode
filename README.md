@@ -228,6 +228,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1803-average-waiting-time](https://github.com/lucky-2104/LeetCode/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/lucky-2104/LeetCode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/lucky-2104/LeetCode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
+| [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/lucky-2104/LeetCode/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/lucky-2104/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/lucky-2104/LeetCode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2472-build-a-matrix-with-conditions](https://github.com/lucky-2104/LeetCode/tree/master/2472-build-a-matrix-with-conditions) |
